@@ -1,9 +1,30 @@
 body {
-  font-family: sans-serif;
+  line-height: 1;
+  font-family: Arial, sans-serif;
 }
 
-header {
-  background: white url(img/Layer7png) no-repeat 50% 50%;
-  background-size: cover;
+.header {
+  background-image: url(Layer7.png) center center no-repeat;
+  background-size: auto;
   height: 800px;
+}
+
+nav {
+  display: inline-block;
+  text-align: center;
+}
+
+.nav {
+  text-align: center;
+}
+
+.nav-text {
+  display: inline-block;
+}
+
+a {
+  line-height: 10px;
+  padding: 75px 24px 0 53px;
+  color: black;
+  text-decoration: none;
 }
