@@ -3,5 +3,7 @@ body {
 }
 
 header {
-  background: white url(img/Layer7png) height=800px weidth=1600px;
+  background: white url(img/Layer7png) no-repeat 50% 50%;
+  background-size: cover;
+  height: 800px;
 }
