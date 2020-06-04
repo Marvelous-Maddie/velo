@@ -1,6 +1,6 @@
 body {
   line-height: 1;
-  font-family: Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .header {
@@ -31,4 +31,17 @@ section {
   width: 1600px;
   height: 470px;
   box-sizing: border-box;
+}
+
+.grid-container {
+  display: grid;
+  width: 1600px;
+  height: 1800px;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 600px 600px 600px;
+  text-align: center;
+}
+
+.item1 {
+  grid-column: 1 / 2;
 }
