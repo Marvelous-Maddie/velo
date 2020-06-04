@@ -4,28 +4,22 @@ body {
 }
 
 .header {
-  background-image: url(Layer7.png) center center no-repeat;
-  background-size: auto;
+  background-image: url(Layer7.png);
+  width: 1600px;
   height: 800px;
 }
 
 nav {
-  display: inline-block;
   text-align: center;
 }
-
-.nav {
-  text-align: center;
-}
-
 
 .nav-text {
-  display: inline-block;
+  display: inline;
 }
 
 a {
   line-height: 10px;
-  padding: 75px 24px 0 53px;
+  padding: 0px 53px 0 53px;
   color: black;
   text-decoration: none;
 }
