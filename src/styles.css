@@ -25,12 +25,31 @@ a {
   text-decoration: none;
 }
 
-section {
+.section1 {
   background-color: rgb(247, 247, 247);
   text-align: center;
   padding: 120px 200px 0px 200px;
   width: 1600px;
   height: 470px;
+  box-sizing: border-box;
+}
+
+.section2 {
+  background-color: white;
+  text-align: center;
+  padding: 120px 200px 0px 200px;
+  width: 1600px;
+  height: 470px;
+  box-sizing: border-box;
+}
+
+.section3 {
+  background-color: rgb(247, 247, 247);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1600px;
+  height: 200px;
   box-sizing: border-box;
 }
 
@@ -46,9 +65,10 @@ section {
 .grid-container2 {
   display: grid;
   width: 1600px;
-  height: 1800px;
+  height: 734px;
   grid-template-columns: 266.66px 266.66px 266.66px 266.66px 266.66px 266.66px;
-  grid-template-rows: 300px 300px;
+  grid-template-rows: 267px 267px 200px;
+  text-align: center;
 }
 
 .item1 {
@@ -107,10 +127,14 @@ section {
   grid-column: 3;
   grid-row: 3;
   background-image: url(https://raw.githubusercontent.com/Marvelous-Maddie/velo/master/img/Layer14.png);
+  width: 533.33px;
+  height: 600px;
+  background-repeat: no-repeat;
+  padding: 240px 0;
 }
 
 .item-text {
-  align-items: center;
+  text-align: center;
   padding: 70px 50px 0px 50px;
 }
 
@@ -121,6 +145,7 @@ section {
 .item8 {
   grid-column: 1;
   background-image: url(https://raw.githubusercontent.com/Marvelous-Maddie/velo/master/img/Layer19.png);
+  background-repeat: no-repeat;
 }
 
 .item9 {
@@ -133,31 +158,36 @@ section {
 .item10 {
   grid-column: 2;
   background-image: url(https://raw.githubusercontent.com/Marvelous-Maddie/velo/master/img/Layer21.png);
+  background-repeat: no-repeat;
 }
 
 .item11 {
   grid-column: 3;
   grid-row: 1 / span 2;
   background-image: url(https://raw.githubusercontent.com/Marvelous-Maddie/velo/master/img/Layer22.png);
+  background-repeat: no-repeat;
 }
 
 .item12 {
   grid-column: 4;
   grid-row: 1 / span 2;
   background-image: url(https://raw.githubusercontent.com/Marvelous-Maddie/velo/master/img/Layer25.png);
+  background-repeat: no-repeat;
 }
 
 .item13 {
   grid-column: 5 / span 2;
   background-image: url(https://raw.githubusercontent.com/Marvelous-Maddie/velo/master/img/Layer23.png);
-  position: relativ;
-  z-index: -2;
+  background-repeat: no-repeat;
 }
 
 .green-layout {
   background-color: rgba(100, 194, 158, 0.8);
-  width: 100%;
-  height: 100%;
+  width: 533.33px;
+  height: 267px;
+  text-align: center;
+  color: white;
+  padding: 108px 0;
 }
 
 .item14 {
@@ -171,6 +201,25 @@ section {
   grid-column: 6;
   grid-row: 2;
   background-image: url(https://raw.githubusercontent.com/Marvelous-Maddie/velo/master/img/Layer26.png);
+  background-repeat: no-repeat;
+}
+
+.item16 {
+  grid-column: 1 / span 6;
+  grid-row: 3;
+  background-color: black;
+  padding: 75px 0;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 40px;
+}
+
+.Contact {
+  background-color: white;
 }
 
 input[type="email"] {
