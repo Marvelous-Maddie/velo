@@ -10,4 +10,5 @@ Transform a PSD into a Website.
 Divide the Template into grids and create classes containing similar/same CSS.
 </br>
 <b>Goals:</b>
-Learn how to approach UI/UX Design Templates and train my HTML & CSS skills.
+</br>
+Learn how to approach UI/UX Design Templates and train HTML & CSS skills.
